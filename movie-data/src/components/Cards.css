@@ -1,0 +1,56 @@
+.card{
+    width:800px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+}
+.left-side{
+    background-color: #0d0d0c;
+    border-radius: 10px 0 0 10px;
+    width: 400px;
+}
+.right-side{
+    width: 400px;
+}
+.large-image{
+    width: 400px;
+    height: 300px;
+    border-radius: 0 10px 10px 0;
+}
+.top-section{
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+    padding: 10px;
+}
+.heading{
+    color: #fff;
+    font-weight: 600;
+}
+.year{
+    color: #548fb6;
+}
+.time{
+    border: 1px solid #fff;
+    width: 60px;
+    padding: 5px;
+    border-radius: 10px;
+    color: #fff;
+}
+.genre{
+    color: #fff;
+}
+.caption{
+    color: #fff;
+    font-size: 14px;
+    padding: 5px;
+}
+.image{
+    width: 70px;
+}
+.time-genre{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
